@@ -32,7 +32,7 @@ Imagine that your application manages movies. Here is a component that fetches a
   `
 })
 export class MoviesPageComponent {
-  movies: Movie[];
+  movies:any= Movie[];
 
   constructor(private movieService: MoviesService) {}
 
